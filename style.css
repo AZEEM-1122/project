@@ -1,0 +1,165 @@
+@font-face {
+    font-family:myfont;
+    src: url(FONTS/GoogleFonts-Ubuntu-Bold.ttf);
+}
+
+@font-face {
+    font-family: my-font;
+    src: url(FONTS/GoogleFonts-OpenSans-Light.ttf);
+}
+
+.container-fluid{
+    background-color:rgb(51, 100, 198);
+}
+
+#bg-container-fluid{
+    background-color:rgb(244, 247, 254);
+}
+
+.navbar-brand{
+    font-family: myfont;
+}
+
+.nav-link{
+    color: white;
+    font-family: my-font;
+    margin-right:20px;
+}
+
+.navbar-toggler:focus{
+    color: aliceblue;
+}
+
+.display-4{
+    font-family: myfont;
+    font-size: 56px;
+}
+
+.display-4 + p{
+    font-size:17px;
+    font-family: my-font;
+}
+
+.h1{
+    font-family: myfont;
+    font-size:40px;
+}
+
+.p{
+    font-size: 1rem;
+    color: rgb(143, 141, 141);
+}
+
+h5{
+    font-size: 1rem;
+    font-family: myfont;
+}
+
+.h2{
+    font-family: myfont;
+    font-size: 40px;
+}
+
+.p2{
+    font-family: my-font;
+    font-size: 1rem;
+}
+
+.h3{
+    font-size: 20px;
+}
+
+#icon{
+    background-color:rgb(244, 247, 254);
+}
+
+
+#dynamic{
+    background-color:rgb(64, 115, 204);
+}
+
+#number{
+    font-family: myfont;
+}
+
+#col-f{
+    margin-bottom: 80px;
+}
+
+.accordion button{
+    background-color:rgb(244, 247, 254);
+}
+
+.accordion button:focus{
+    background-color:#3364c6;
+    color: white;
+}
+
+
+#footer{
+    background-color:rgb(20, 24, 62) ;
+}
+
+#footer-1{
+    text-decoration: none;
+    font-size: 40px;
+    font-family: myfont;
+}
+
+#h5-footer{
+    font-size: 20px;
+    font-family: myfont;
+}
+
+#footer .col-lg-3 .btn{
+        text-decoration: none;
+        padding: 0;
+        font-size: 16px;
+        font-family: my-font;
+        font-weight: bold;
+        line-height: 1.9;
+}
+
+#footer hr{
+    border: 0;
+    height: 1px;
+    background-color: aliceblue;
+}
+
+.h8{
+    font-family: my-font;
+    font-size: 14px;
+}
+
+
+
+@media screen and (max-width:992px){
+      #hero-1 #hero-2{
+        text-align: center;
+        font-size: 19px;
+     }
+
+     #hero-h1{
+        font-size:49px;
+     }
+}
+
+
+@media screen and (max-width:576px) {
+
+     #hero-h1{
+        font-size: 37px;
+     }
+
+     #about-h1{
+        font-size:29px ;
+     }
+
+     #case-h1{
+        font-size: 29px;
+     }
+
+     #feature-h1{
+        font-size: 29px;
+     }
+}
